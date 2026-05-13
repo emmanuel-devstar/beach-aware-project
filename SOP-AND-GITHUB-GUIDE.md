@@ -1,5 +1,11 @@
 # Beach Aware — Simple SOP & GitHub guide
 
+**Word version:** see `Beach-Aware-SOP-and-GitHub-Guide.docx` in the repository root for a longer, structured copy (tables, page breaks). Regenerate it after changing this Markdown by running:
+
+```bash
+python3 scripts/generate_sop_docx.py
+```
+
 This document is for anyone working on the Beach Aware project. The language is kept as plain as possible.
 
 **SOP** = *Standard Operating Procedure* = “the usual way we do things.”
