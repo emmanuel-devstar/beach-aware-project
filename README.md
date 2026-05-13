@@ -27,8 +27,6 @@ It combines weather-style factors (for example wind, tides, currents, and water 
 
 ## Documentation
 
-- **[SOP and GitHub guide (Word)](./Beach-Aware-SOP-and-GitHub-Guide.docx)** — Detailed, structured procedures plus GitHub usage (open in Microsoft Word, Google Docs, etc.).
-- **[SOP and GitHub guide (Markdown)](./SOP-AND-GITHUB-GUIDE.md)** — Same topic in simple web-friendly text; regenerate the Word file with `python3 scripts/generate_sop_docx.py` after edits.
 - **[PHP tuner details](./php-tuner/README.md)** — Database setup, Nginx, security, and local testing.
 
 ---

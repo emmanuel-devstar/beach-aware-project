@@ -125,7 +125,7 @@ def build() -> Document:
             ["Purpose", "SOP for development workflow; GitHub usage; linkage to app architecture"],
             ["Primary repository", "git@github.com:emmanuel-devstar/beach-aware-project.git"],
             ["Default branch", "main"],
-            ["Companion docs", "README.md (repository root), php-tuner/README.md (PHP tuner setup)"],
+            ["Companion docs", "README.md (repository root), php-tuner/README.md (PHP tuner setup); any SOP copy is local-only"],
         ],
     )
     horizontal_rule(doc)
@@ -194,7 +194,7 @@ def build() -> Document:
             ["assets/", "Compiled JavaScript, CSS, images for the public site."],
             ["php-tuner/", "PHP application: public web root (api.php, login, admin), src/, sql/ schema."],
             ["php-tuner/.env", "Local secrets — present only on each machine/server; not in Git."],
-            ["SOP-AND-GITHUB-GUIDE.md", "Markdown copy of this guidance (editable in Git)."],
+            ["Local SOP (optional)", "Maintainers may keep SOP-AND-GITHUB-GUIDE.md / .docx locally; not in this repository."],
             ["README.md", "Short project intro and links."],
         ],
     )
@@ -355,7 +355,6 @@ git checkout -b name     # New branch from current HEAD""",
 
     heading(doc, "Related files in the repository", 1)
     bullet(doc, "README.md — project summary")
-    bullet(doc, "SOP-AND-GITHUB-GUIDE.md — Markdown version of this guide")
     bullet(doc, "php-tuner/README.md — MySQL schema, .env, Nginx, security")
 
     doc.add_paragraph()

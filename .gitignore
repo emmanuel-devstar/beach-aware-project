@@ -1,2 +1,6 @@
 .DS_Store
 **/.env
+
+# Local-only documentation (not shared via Git)
+Beach-Aware-SOP-and-GitHub-Guide.docx
+SOP-AND-GITHUB-GUIDE.md
